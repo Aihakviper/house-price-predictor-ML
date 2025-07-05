@@ -3,8 +3,8 @@ import PySimpleGUI as sg
 import pandas as pd
 
 # === Load model and expected features ===
-model = joblib.load("trained_model.joblib")
-expected_features = joblib.load('model_features.pkl')  # list of columns used during training
+model = joblib.load("house_trained_clean_model.pkl")
+expected_features = joblib.load('clean_model_features.pkl')  # list of columns used during training
 
 sg.theme('Tan')
 
